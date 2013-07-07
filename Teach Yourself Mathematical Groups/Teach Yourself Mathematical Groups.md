@@ -11,43 +11,71 @@ What is pure mathematics about?||Proving things.||
 
 When is arguing from particular cases sufficient to prove something?||When you examine every possible case.||
 
-Suppose you know that "If P then Q", and you also know that P is false.  What do you know about Q?||Nothing||
+You ask someone to prove that the angles of a triangle always add up to 180 degrees. They respond by 1) using a ruler and pencil to draw a triangle on a piece of paper, 2) cutting the triangle out of the paper, 3) cutting the corners off the triangle, and then 4) lining up the corners so that they form a straight line.<np><img src="Teach-Yourself-Mathematical-Groups\01-01-triangle-angles-add-to-180.png" /><np>What exactly is wrong with this proof?||This only demonstrated a single example, which is not sufficient to prove the result for [u]all[/u] triangles.||
 
-Prove that the sum of two consecutive whole numbers is odd
+Prove that the sum of two consecutive whole numbers is odd.||Suppose that n is the smaller whole number. Then (n + 1) is the larger number, and their sum is n + (n + 1) = 2n + 1. Since this is one more than a multiple of 2, it is odd.
 
-Prove that if a and b are even, then a + b is even.
+What is this: [$$]\blacksquare[/$$]  (aka "solid black square")||This is the symbol introduced by Donald Knuth to replace the phrase "QED". It signifies that a mathematical proof is complete.||double-sided
 
-What is a proof by contradiction?
+Why use a symbol or phrase to signify the end of a proof?||Sometimes, in the absence of such a symbol, it may not be clear where a proof finishes and subsequent text takes over.||
 
-Prove that if a^2 is an even number, then a is an even number.||This is an example of a proof that benefits from an indirect approach (in this case, proof by contradiction). Suppose a is an odd number. Then a can be written in the form a = 2n + 1, where n is a whole number. Then a^2 = (2n+1)^2, that is a^2 = 4n^2 + 4n + 1 = 2(2n^2 + 2n) + 1, so a^2 is 1 more than a multiple of 2, and therefore odd. But you are given that a^2 is an even number, so you have arrived at a contradiction. Therefore the supposition that a is an odd number is untenable. Therefore a is an even number.||
+solid black square||Another name for [$$]\blacksquare[/$$]||
 
-Prove that [$$]\sqrt{2}[/$$] is irrational.
+tombstone||Another name for [$$]\blacksquare[/$$]||
 
-Prove that there is no greatest prime number.
+Halmos symbol||Another name for [$$]\blacksquare[/$$]||
 
-Prove that the product mn of two numbers m and n is even if, and only if, at least one of m and n is even.
+What are some names used to refer to [$$]\blacksquare[/$$]?||solid black square, tombstone, Halmos symbol.||
 
-What does it mean to say that two statements are "equivalent"?
+Prove that if a and b are even, then a + b is even.||If a is even, then it can be written in the form a = 2m, where m is a whole number. Similarly, b = 2n where n is a whole number. Then a + b = 2m + 2n = 2(m + n). Since m and n are whole numbers, so is m + n; therefore 2(m + n) is an even number.||
 
-What does it mean to say that "P is a sufficient condition for Q"?
+Suppose you know that:<np>1) If P, then Q<np>2) P is true.<np>Question: What does this tell us about Q?||Q is true.||
 
-What does it mean to say that "P is a necessary condition for Q"?
+Suppose you know that:<np>1) If P, then Q<np>2) Q is false.<np>Question: What does this tell us about P?||P is false.||
 
-What does it mean to say that something is "a necessary and sufficient condition for" something else?
+Suppose you know that:<np>1) If P, then Q<np>2) P is false.<np>Question: What does this tell us about Q?||You can't know whether Q is true or false based on the information given.<np><np>Here's a real-world example:<np>1) If a person is the President, then that person is over 35 years old.<np>2) John is not the President.<np>Conclusion: We can't conclude anything about John's age based on the information given.||
 
-How do you prove results which involve "if, and only if"?
+Suppose you know that:<np>1) If P, then Q<np>2) Q is true.<np>Question: What does this tell us about P?||You can't know whether P is true or false based on the information given.||
 
-How do you prove that two statements are equivalent?
+What is a proof by contradiction?||In this type of proof, you start with a list of statements that you know for sure are true (axioms, lemmas, etc.) and another statement whose truth hasn't been determined one way or the other yet. You assume that the new statement [u]is[/u] true, and then show by deduction that this new statement being true will necessarily lead to a contradiction with the other statements that you know for sure are true. Because there's a contradiction, and you know for sure that the older statements can't be the problem, you can therefore safely conclude that it is the new statement which cannot be true. You have thus proved by contradiction that the new statement is false.||double-sided
 
-What is denary notation?
+What's a simple real-world example of reasoning resembling a proof by contradiction?||"You're saying I committed the murder, but I [u]reported[/u] the murder. If I [u]had[/u] done the crime, I would not have reported it. Therefore I didn't do it." <np><np>[The contradiction here is that 1) the person did report the crime, and 2) [u]if we assume[/u] that the person committed the crime, then, according to the other premises, this person did not report the crime. This reasoning is not as air-tight as mathematical reasoning, but the goal here is to make the mathematical technique feel more intuitive.]
 
-Prove that a necessary and sufficient condition for a number N expressed in denary notation to be divisible by 3 is that the sum of the digits of N is divisible by 3.
+Prove that if [$$]a^{2}[/$$] is an even number, then [$$]a[/$$] is an even number.||This is an example of a proof that benefits from an indirect approach (in this case, proof by contradiction). Suppose a is an odd number. Then a can be written in the form [$$]a = 2n + 1[/$$], where n is a whole number. Then [$$]a^{2} = \(2n+1\)^{2}[/$$], that is [$$]a^{2} = 4n^{2} + 4n + 1 = 2\(2n^{2} + 2n\) + 1[/$$], so a^{2} is 1 more than a multiple of 2, and therefore odd. But you are given that a^2 is an even number, so you have arrived at a contradiction. Therefore the supposition that a is an odd number is untenable. Therefore a is an even number.||
 
-What do you need to be careful of when reading mathematicians' use of the word "if"?||They sometimes use the word "if" when they mean "if and only if".
+Another name used for "proof by contradition"||Another name used for "reductio ad absurdum" [Latin for "reduction to absurdity"]||double-sided
 
-How do you prove a statement false?
+What does it mean to say that a number is irrational?||This is the word used to refer to when a number cannot be written in the form \frac{a}{b} where a and b are whole numbers where a and b have no common factors.||double-sided
 
-What's a counterexample?
+Prove that [$$]\sqrt{2}[/$$] is irrational, given the following information:<np>1) A number being "irrational" means that that number cannot be expressed as [$$]\frac{a}{b}[/$$], where a and b are whole numbers where a and b have no common factors.<np>2) If [$$]a^{2}[/$$] is even, then a is even.<np>.||Proof:<np>1) Suppose that [$$]\sqrt{2}[/$$] is rational.<np>2) Then by the definition of "rational" and the fact that 2 is positive, [$$]\sqrt{2}= \frac{a}{b}[/$$] where i) a and b are positive whole numbers and ii) a and b have [u]no common factors[/u].<np>3) Then, by squaring, [$$]a^{2}=2b^{2}[/$$].<np>4) Since b is a whole number, so is [$$]b^{2}[/$$] and [$$]2b^{2}[/$$] is an even number.<np>5) Therefore, [$$]a^{2}[/$$] is even.<np>6) By the fact that "if [$$]a^{2}[/$$] is even, then a is even", a is even, and can therefore be written in the form [$$]a=2c[/$$]. The relation [$$]a^{2} = 2b^{2}[/$$] can now be written as [$$]\(2c\)^{2} = 2b^{2}[/$$] which gives [$$]2c^{2} = b^{2}[/$$], showing that [$$]b^{2}[/$$] is even.<np>7) Using the fact that "if [$$]a^{2}[/$$] is even, then a is even", b is even.<np>8) You have now shown that the assumption that [$$]\sqrt{2} = \frac{a}{b}[/$$] leads to a and b are both even, so they both have a factor of 2. But this contradicts the assumption that a and b have no common factors. This is a contradiction, so the original assumption is false. Therefore [$$]\sqrt{2}[/$$] is irrational.
+
+Prove that there is no greatest prime number.||Proof:<np>Suppose that there is a greatest prime number p. Consider the number m = (1x2x3x4x...xp) + 1. From its construction, m is not divisible by 2 or by 3, or by 4, or by any whole number up to p, all these numbers leaving a remainder of 1 when divided into m. But, every number has prime factors. It follows that m must be divisible by a prime greater than p, contrary to hypothesis.
+
+What is the following statement shorthand for: "P is true if, and only if, Q is true"||The two statements below can be combined into ______:<np>1) If P is true then Q is true.<np>2) If Q is true then P is true.||double-sided
+
+Prove that the product mn of two numbers m and n is even if, and only if, at least one of m and n is even.<np>Important info:<np>1) An even number is a number that can be expressed as 2n, where n is a whole number.<np>2) The product of two odd numbers is odd.||Proof:<np>We must prove two statements: 1) the "if A then B" part, and the "A only if B" part.<np>If: Suppose that at least one of m and n is even. Suppose it is m. Then m = 2p for a whole number p. Then mn = 2pn = 2(pn), so mn is even.<np><np>Only if: Suppose that the statement 'at least one of m and n is even' is false. Then m and n are both odd. The product of two odd numbers is odd. This is a contradiction, as you are given that mn is even. Hence at least one of m and n is even.
+
+What does it mean to say that two statements are "equivalent"?||This is just another way of saying each statement is true if and only if the other statement is true.
+
+What does it mean to say that "P is a sufficient condition for Q"?||This is just another way of saying that if P is true, then Q is true. Or in other words, that if Q is false, then P must be false.||double-sided
+
+What does it mean to say that "P is a necessary condition for Q"?||This is just another way of saying that if Q is true, then P is true. Or in other words, that if P is false, then Q must be false.||double-sided
+
+What does it mean to say that something is "a necessary and sufficient condition for" something else?||This is another way of saying that one statement is equivalent to another statement, or in other words, that the first thing is true if and only if the second thing is true.
+
+How do you prove results which involve "if, and only if"?||You need to prove the two halves of that statement separately: the "if" part and the "only if" part.||
+
+How do you prove that two statements are equivalent?||"Equivalent" is another word for "if and only if", and so you need to prove the two halves of that statement separately: the "if" part and the "only if" part.||
+
+What is denary notation?||This is the term used to writing a number in the form [$$]N = a_{n}10^{n} + a_{n-1}10^{n-1} + ... + a_{1}10 + + 0[/$$] where [$$]0 \leq a_{i} \leq 10[/$$] for all i.
+
+Prove that a necessary and sufficient condition for a number N expressed in denary notation to be divisible by 3 is that the sum of the digits of N is divisible by 3.||Proof:<np>Necessary: If 3 divides N, then 3 divides [$$]a_{n}10^{n} + ... + a_{1}10 + + 0[/$$]. But for all i, 10^{i} leaves remainder 1 on division by 3. So the remainder when N is divided by 3 is [$$]a_{n} + ... + a_{0}[/$$]. But as 3 divides N the remainder is 0, so [$$]a_{n} + ... + a_{0}[/$$] is divisible by 3, that is, the sum of the digits is divisible by 3.<np><np>Sufficient: Suppose now that the sum of the digits is divisible by 3, that is, [$$]a_{n} + ... + a_{0}[/$$] is divisible by 3. Then 3 also divides the sum [$$]\(a_{n} + ... + a_{0}\) + \( \overset{n 9s}{\overbrace{9...9}}a_{n} + ... + 9a_{1}\)[/$$]<np>[$$]= a_{n}\(1 + \overset{n 9s}{\overbrace{9...9}}\) + ... +a_{1}\(1+9\)+a_{0}<np>=a_{n}\(10^{n}\)+...+a_{1}\(10\)+a_{0} = N[/$$].
+
+What do you need to be careful of when reading mathematicians' use of the word "if"?||They sometimes use the word "if" when they mean "if and only if".||
+
+How do you prove a statement false?||Counterexamples are used to prove that something is ______.||double-sided
+
+What's a counterexample?||____ is a particular case which shows that a statement is false.||double-sided
 
 ###Exercises
 1. Prove that the product of two odd numbers is odd.
