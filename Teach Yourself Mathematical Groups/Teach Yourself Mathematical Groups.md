@@ -95,6 +95,37 @@ What's a counterexample?||____ is a particular case which shows that a statement
 
 9. Prove that a necessary and sufficient condition for an integer N expressed in denary notation to be divisible by 9 is that 9 divides the sum of the digits of N.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##Sets
 
 ###Main Ideas
